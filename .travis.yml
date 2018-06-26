@@ -14,9 +14,9 @@ deploy:
   on: production
   app: cookbook13
     on:
-    repo: my-org/my-repo
-    branches:    
-      only:      
-        - master 
+      repo: skrafi/cookbook
+      branches:    
+        only:      
+          - master 
 true:
   branch: master
