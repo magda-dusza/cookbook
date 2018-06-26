@@ -13,10 +13,7 @@ deploy:
     secure: bqJYM3Gsih6KAMFL27Xs7iR1Kzp0KQLAxoI9kMfJtuJ2kE53MC/4noYEtUQDS+SKKCWzb0I4vwemDzxwwpExJvNKMpltRqyr/+adR9AVDdNtm9GS8BhsBel5W/kPwkKSwKouHq6EoAaunWEgQ9lUafuLz/ja7JSsuHnTulu1OSTfeR3sXmKQb6WxquHwqTs8argR2KsvZ9bxcsCLtgNUXQlBZB1S4lx91WuySb1Tzx8ULpXAOIeO1VQsaW9/JcSDZRyDNhPHwLyVaq4yHpeeaZjordCOPtMpoRSODdjC2kPrMWsbLMVs1z24sToQk9vaq2h3tO1JgelMF1iro6Yy4U0bpnbFVXv5SryLQ5dXygZfBg1WfK74dFvyVzKkQ8Kwl0TyQ4Q5BteNlMIUyOhvBzLixybvui+VqTd2CBTO9K2AgRbRThHBRirPOq688yA8bgu1g79/VIjVC2y/V1r/+cOrRuawBCPrL1HuqpzmGAR36A51HBHNXms2X4aIKxebSgS6hLPSnX2VBt8DSDCYnLdSqU+yrN9SPu1n66VTL73eQ+j605HA6twPi4vVbzchSvOETLFC7OXAbxt07dFagkd+ROkqlc7TxcrDz03rfV1rpc6CoP5XfmLzh76cGtka/1jnHssdBSN4pQxHI/+e0bUdoXvveGiY5UqEsihhnBg=
   on: production
   app: cookbook13
-    on:
-      repo: skrafi/cookbook
-      branches:    
-        only:      
-          - master 
+  on:
+      branch: master
 true:
   branch: master
